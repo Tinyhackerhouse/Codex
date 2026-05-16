@@ -13,7 +13,7 @@ Use the system design sandbox to turn architecture learning into repeatable mult
 
 ## First Build Target
 
-Start with i-augmented-app.md because it exercises the modern stack: API, queue, cache, database, vector database, embedding pipeline, LLM gateway, observability, fallback, and cost controls.
+Start with Ai-augmented-app.md because it exercises the modern stack: API, queue, cache, database, vector database, embedding pipeline, LLM gateway, observability, fallback, and cost controls.
 
 ## Approval Gates
 
