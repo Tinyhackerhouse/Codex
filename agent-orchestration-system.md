@@ -206,6 +206,12 @@ The system should preserve:
 
 For the first version, store memory in Markdown and JSON files. A database can be added later.
 
+## Storage Budget
+
+The system must stay within a 5 GB total local storage budget.
+
+Use `ops/policies/storage-budget.md` as the operating policy and `scripts/check-storage.ps1` to check current usage. The CEO Agent should run a storage check before generating large artifacts, creating local indexes, saving screenshots, or adding test outputs.
+
 ## Filesystem MVP
 
 Recommended first version:
